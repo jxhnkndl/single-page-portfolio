@@ -1,3 +1,15 @@
 body {
   font-family: "Bitter", Georgia, 'Times New Roman', Times, serif;
 }
+
+#header {
+  height: 40vh;
+}
+
+.bg-pink {
+  background-color: #ff7675;
+}
+
+.color-pink {
+  color: #ff7675;
+}
