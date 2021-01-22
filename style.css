@@ -1,10 +1,29 @@
 body {
   font-family: "Bitter", Georgia, 'Times New Roman', Times, serif;
+  overflow-x: hidden;
 }
 
 #header {
-  height: 40vh;
+  height: 60vh;
 }
+
+#header-text {
+  max-width: 80%;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+.h1 {
+  font-size: 3.5rem;
+}
+
+.h5 {
+  font-size: 1.5rem;
+}
+
+/* Helper Classes */
 
 .bg-pink {
   background-color: #ff7675;
@@ -14,6 +33,24 @@ body {
   color: #ff7675;
 }
 
-.project {
-  margin-bottom: 50px;
+/* Media Queries */
+
+@media (max-width: 992px) {
+  .h1 {
+    font-size: 2.75rem;
+  }
+
+  .h5 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .h5 {
+    font-size: 1.175rem;
+  }
 }
