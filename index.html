@@ -25,7 +25,7 @@
 </head>
 <body>
 
-  <div class="overflow-wrapper position-relative">
+  <div class="overflow-wrapper position-relative" data-aos="fade" data-aos-duration="500">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-green border-bottom mb-3">
@@ -49,10 +49,10 @@
     <header class="mb-3 position-relative">
       <div id="header" class="container d-flex justify-content-center align-items-center">
         <div id="header-text" class="text-center">
-          <p class="h1 mb-0">
+          <p class="h1 mb-0" >
             <i class="fas fa-code color-green"></i>
           </p>
-          <h1 class="header-text font-weight-bold">
+          <h1 class="heading rubik font-weight-bold">
             HELLO<span>O</span><span>O</span><span>O</span>!
           </h1>
           <p class="h5 font-weight-light">I'm J.K. Royston and I'm full-stack developer based in Richmond, Virginia. Let's take my love for creativity and technology and make something together!</p>
@@ -70,13 +70,13 @@
     </header>
 
     <!-- Main Content Container -->
-    <main class="bg-green py-5">
+    <main id="portfolio" class="bg-green py-5">
       <div class="container">
 
-        <p class="header-text font-weight-bold text-center text-white mb-5">PROJECTS</p>
+        <p class="rubik heading font-weight-bold text-center text-white mb-5">PROJECTS</p>
 
         <!-- Porfotlio -->
-        <section id="portfolio">
+        <section>
           <div class="row">
 
             <!-- Project #1 -->
@@ -85,7 +85,7 @@
                 <img src="./assets/img/foo-bar-finder.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Foo Bar Finder</p>
-                  <p class="mb-2 color-green">
+                  <p class="mb-2 color-green rubik">
                     <small>HTML / CSS / Bootstrap / JavaScript / jQuery</small>
                   </p>
                   <p class="font-weight-light">
@@ -113,7 +113,7 @@
                 <img src="./assets/img/workday-scheduler.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Workday Scheduler</p>
-                  <p class="mb-2 color-green">
+                  <p class="mb-2 color-green rubik">
                     <small>HTML / CSS / JavaScript / jQuery</small>
                   </p>
                   <p class="font-weight-light">
@@ -141,7 +141,7 @@
                 <img src="./assets/img/weather-dashboard.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Weather Dashboard</p>
-                  <p class="mb-2 color-green">
+                  <p class="mb-2 color-green rubik">
                     <small>HTML / CSS / Bootstrap / JavaScript / jQuery</small>
                   </p>
                   <p class="font-weight-light">
@@ -180,7 +180,24 @@
   <!-- Animate On Scroll Library -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      disable: false,
+      startEvent: 'load',
+      initClassName: 'aos-init',
+      animatedClassName: 'aos-animate',
+      useClassNames: false,
+      disableMutationObserver: false,
+      debounceDelay: 50,
+      throttleDelay: 99,
+
+      offset: 120,
+      delay: 0,
+      duration: 400,
+      easing: 'ease-in-out-quad',
+      once: false,
+      mirror: false,
+      anchorPlacement: 'top-bottom'
+    });
   </script>
 
 </body>
