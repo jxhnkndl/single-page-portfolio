@@ -39,30 +39,6 @@ body {
 
 /* Helper Classes */
 
-.bg-gray {
-  background-color: #b2bec3;
-}
-
-.bg-grayer {
-  background-color: #b2bec3d1;
-}
-
-.bg-pink {
-  background-color: #ff7675;
-}
-
-.color-pink {
-  color: #ff7675;
-}
-
-.bg-yellow {
-  background-color: #ffeaa7;
-}
-
-.color-yellow {
-  color: #ffeaa7;
-}
-
 .bg-green {
   background-color: #00b894;
 }
@@ -89,7 +65,7 @@ body {
 
 @media (max-width: 576px) {
   #header {
-    height: 80vh;
+    height: 90vh;
   }
 
   .heading {

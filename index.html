@@ -28,18 +28,18 @@
   <div class="overflow-wrapper position-relative" data-aos="fade" data-aos-duration="500">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-green border-bottom mb-3">
-      <div class="container d-flex justify-content-center align-items-center py-1">
+    <nav class="navbar navbar-expand-lg navbar-light mb-3">
+      <div class="container d-flex justify-content-center align-items-center py-2">
         <!-- <a class="navbar-brand" href="#">John Kendall Royston</a> -->
         <div id="social-icons" class="d-flex justify-content-end align-items-center">
           <a href="#">
-            <i class="fab fa-github h4 text-white mr-3 mb-0"></i>
+            <i class="fab fa-github h3 color-green mr-3 mb-0"></i>
           </a>
           <a href="#">
-            <i class="fab fa-linkedin h4 text-white mr-3 mb-0"></i>
+            <i class="fab fa-linkedin h3 color-green mr-3 mb-0"></i>
           </a>
           <a href="#">
-            <i class="fas fa-envelope h4 text-white mb-0"></i>
+            <i class="fas fa-envelope h3 color-green mb-0"></i>
           </a>
         </div>
       </div>
@@ -49,11 +49,9 @@
     <header class="mb-3 position-relative">
       <div id="header" class="container d-flex justify-content-center align-items-center">
         <div id="header-text" class="text-center">
-          <p class="h1 mb-0" >
-            <i class="fas fa-code color-green"></i>
-          </p>
+          <i class="heading mb-0 fas fa-code color-green"></i>
           <h1 class="heading rubik font-weight-bold">
-            HELLO<span>O</span><span>O</span><span>O</span>!
+            HELLOOO!
           </h1>
           <p class="h5 font-weight-light">I'm J.K. Royston and I'm full-stack developer based in Richmond, Virginia. Let's take my love for creativity and technology and make something together!</p>
           <hr>
@@ -70,26 +68,29 @@
     </header>
 
     <!-- Main Content Container -->
-    <main id="portfolio" class="bg-green py-5">
+    <main class="bg-green">
       <div class="container">
 
-        <p class="rubik heading font-weight-bold text-center text-white mb-5">PROJECTS</p>
-
         <!-- Porfotlio -->
-        <section>
+        <section id="portfolio" class="px-2 py-5">
+          <p class="rubik heading text-center text-white mb-4">
+            <i class="fas fa-code"></i>
+            PROJECTS
+          </p>    
+
           <div class="row">
 
             <!-- Project #1 -->
             <div class="col-12 col-md-6 col-xl-4 project">
-              <div class="card border-0 mx-auto" data-aos="fade-left">
+              <div class="card border-0 mx-auto p-1 shadow" data-aos="fade-left">
                 <img src="./assets/img/foo-bar-finder.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Foo Bar Finder</p>
                   <p class="mb-2 color-green rubik">
-                    <small>HTML / CSS / Bootstrap / JavaScript / jQuery</small>
+                    <small>UI / UX / Bootstrap / JavaScript / jQuery</small>
                   </p>
                   <p class="font-weight-light">
-                    The Foo Bar Finder is a double-sided application that allows a user to search for and save new recipes and cocktails by keyword or category. The application features alternate color schemes for the recipe side and drink side.
+                    The Foo Bar Finder is a double-sided application that allows a user to search for and save new recipes and cocktails by keyword or category. The application uses alternate color schemes for the recipe and drink sides.
                   </p>
                   <div class="row">
                     <div class="col-6 pr-1">
@@ -109,15 +110,15 @@
 
             <!-- Project #2 -->
             <div class="col-12 col-md-6 col-xl-4 project">
-              <div class="card border-0 mx-auto" data-aos="fade-right">
+              <div class="card border-0 mx-auto p-1 shadow" data-aos="fade-right">
                 <img src="./assets/img/workday-scheduler.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Workday Scheduler</p>
                   <p class="mb-2 color-green rubik">
-                    <small>HTML / CSS / JavaScript / jQuery</small>
+                    <small>JavaScript / jQuery / Moment.js</small>
                   </p>
                   <p class="font-weight-light">
-                    The Workday Scheduler is a dynamic planner application allowing users to input and save events spanning from 9 AM to 5 PM. Timeblocks update their background colors based on the current time. 
+                    The Workday Scheduler is a dynamic planner application allowing users to input and save events spanning from 9 AM to 5 PM. Timeblocks auto-update their background colors in relation to the current time. 
                   </p>
                   <div class="row">
                     <div class="col-6 pr-1">
@@ -137,15 +138,15 @@
 
             <!-- Project #3 -->
             <div class="col-12 col-md-6 col-xl-4 d-md-none d-xl-block project">
-              <div class="card border-0 mx-auto" data-aos="fade-left">
+              <div class="card border-0 mx-auto p-1 shadow" data-aos="fade-left">
                 <img src="./assets/img/weather-dashboard.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Weather Dashboard</p>
                   <p class="mb-2 color-green rubik">
-                    <small>HTML / CSS / Bootstrap / JavaScript / jQuery</small>
+                    <small>UI / UX / Bootstrap / JavaScript / jQuery / Day.js</small>
                   </p>
                   <p class="font-weight-light">
-                    The Weather Dashboard allows users to input a city and retrieve both the city's current weather and five-day forecast. The application also allows users to save previously searched cities to later retrieve updated weather data quickly and easily.
+                    The Weather Dashboard allows users to input a city and retrieve both the city's current weather and five-day forecast. The application also saves previously search cities for quick and easy future reference.
                   </p>
                   <div class="row">
                     <div class="col-6 pr-1">
@@ -179,26 +180,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
   <!-- Animate On Scroll Library -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      disable: false,
-      startEvent: 'load',
-      initClassName: 'aos-init',
-      animatedClassName: 'aos-animate',
-      useClassNames: false,
-      disableMutationObserver: false,
-      debounceDelay: 50,
-      throttleDelay: 99,
-
-      offset: 120,
-      delay: 0,
-      duration: 400,
-      easing: 'ease-in-out-quad',
-      once: false,
-      mirror: false,
-      anchorPlacement: 'top-bottom'
-    });
-  </script>
+  <!-- App.js -->
+  <script src="app.js"></script>
 
 </body>
 </html>
