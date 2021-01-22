@@ -1,14 +1,17 @@
-body {
-  font-family: "Bitter", Georgia, 'Times New Roman', Times, serif;
+.overflow-wrapper {
   overflow-x: hidden;
 }
 
+body {
+  font-family: "Bitter", Georgia, 'Times New Roman', Times, serif;
+}
+
 #header {
-  height: 90vh;
+  height: 80vh;
 }
 
 #header-text {
-  max-width: 80%;
+  max-width: 90%;
 }
 
 #hello {
@@ -64,10 +67,6 @@ body {
 /* Media Queries */
 
 @media (max-width: 992px) {
-  body {
-    overflow: hidden;
-  }
-  
   #hello {
     font-size: 2.75rem;
   }
@@ -78,10 +77,6 @@ body {
 }
 
 @media (max-width: 576px) {
-  body {
-    overflow: hidden;
-  }
-
   #hello {
     font-size: 2.75rem;
   }
