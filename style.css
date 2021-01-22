@@ -35,6 +35,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  animation: arrowPulse 1s ease-out;
+  animation-iteration-count: infinite;
 }
 
 /* Helper Classes */
@@ -49,6 +51,30 @@ body {
 
 .rubik {
   font-family: "Rubik", sans-serif;
+}
+
+/* Arrow Animation */
+
+@keyframes arrowPulse {
+
+  0% {
+    opacity: 1;
+    transform: translateY(0)
+  }
+
+  60% {
+    transform: translateY(-7px)
+  }
+
+  75% {
+    opacity: .4;
+  }
+
+  100% {
+    opacity: 1;
+    bottom: 0;
+    transform: translateY(0);
+  }
 }
 
 /* Media Queries */

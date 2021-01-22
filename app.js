@@ -30,4 +30,18 @@ $(document).ready(function() {
       scrollTop: target
     }, 500);
   });
+
+  // Event Listener: Press button down
+  $(".btn").on("mousedown", function() {
+    $(this).css({
+      transform: "translateY(3px)"
+    })
+  });
+
+  // Event Listener: Let go of button
+  $(".btn").on("mouseup", function() {
+    $(this).css({
+      transform: "translateY(-3px)"
+    });
+  });
 });
