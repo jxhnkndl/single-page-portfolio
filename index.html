@@ -25,21 +25,21 @@
 </head>
 <body>
 
-  <div class="overflow-wrapper">
+  <div class="overflow-wrapper position-relative">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-pink border-bottom mb-3">
-      <div class="container d-flex justify-content-center align-items-center py-2">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-green border-bottom mb-3">
+      <div class="container d-flex justify-content-center align-items-center py-1">
         <!-- <a class="navbar-brand" href="#">John Kendall Royston</a> -->
         <div id="social-icons" class="d-flex justify-content-end align-items-center">
           <a href="#">
-            <i class="fab fa-github h2 text-white mr-3 mb-0"></i>
+            <i class="fab fa-github h4 text-white mr-3 mb-0"></i>
           </a>
           <a href="#">
-            <i class="fab fa-linkedin h2 text-white mr-3 mb-0"></i>
+            <i class="fab fa-linkedin h4 text-white mr-3 mb-0"></i>
           </a>
           <a href="#">
-            <i class="fas fa-envelope h2 text-white mb-0"></i>
+            <i class="fas fa-envelope h4 text-white mb-0"></i>
           </a>
         </div>
       </div>
@@ -50,28 +50,30 @@
       <div id="header" class="container d-flex justify-content-center align-items-center">
         <div id="header-text" class="text-center">
           <p class="h1 mb-0">
-            <i class="fas fa-code color-pink"></i>
+            <i class="fas fa-code color-green"></i>
           </p>
-          <h1 id="hello" class="h1 font-weight-bold">
+          <h1 class="header-text font-weight-bold">
             HELLO<span>O</span><span>O</span><span>O</span>!
           </h1>
           <p class="h5 font-weight-light">I'm J.K. Royston and I'm full-stack developer based in Richmond, Virginia. Let's take my love for creativity and technology and make something together!</p>
           <hr>
-          <button href="#portfolio" class="btn text-white bg-pink m-2">Download Resume</button>
+          <button href="#portfolio" class="btn text-white bg-green m-2">Download Resume</button>
         </div>
       </div>
 
       <div class="scroll-arrow position-absolute text-center">
         <a id="#header" href="#portfolio">
-          <i class="fas fa-angle-double-down h3 color-pink mb-3"></i>
+          <i class="fas fa-angle-double-down h3 color-green mb-3"></i>
         </a>
       </div>
 
     </header>
 
     <!-- Main Content Container -->
-    <main>
+    <main class="bg-green py-5">
       <div class="container">
+
+        <p class="header-text font-weight-bold text-center text-white mb-5">PROJECTS</p>
 
         <!-- Porfotlio -->
         <section id="portfolio">
@@ -79,11 +81,11 @@
 
             <!-- Project #1 -->
             <div class="col-12 col-md-6 col-xl-4 project">
-              <div class="card mx-auto" data-aos="fade-left">
+              <div class="card border-0 mx-auto" data-aos="fade-left">
                 <img src="./assets/img/foo-bar-finder.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Foo Bar Finder</p>
-                  <p class="mb-2 color-pink">
+                  <p class="mb-2 color-green">
                     <small>HTML / CSS / Bootstrap / JavaScript / jQuery</small>
                   </p>
                   <p class="font-weight-light">
@@ -91,12 +93,12 @@
                   </p>
                   <div class="row">
                     <div class="col-6 pr-1">
-                      <button class="btn bg-pink text-white btn-block">
+                      <button class="btn bg-green text-white btn-block">
                         View App
                       </button>
                     </div>
                     <div class="col-6 pl-1">
-                      <button class="btn bg-pink text-white btn-block">
+                      <button class="btn bg-green text-white btn-block">
                         View GitHub
                       </button>
                     </div>
@@ -107,11 +109,11 @@
 
             <!-- Project #2 -->
             <div class="col-12 col-md-6 col-xl-4 project">
-              <div class="card mx-auto" data-aos="fade-right">
+              <div class="card border-0 mx-auto" data-aos="fade-right">
                 <img src="./assets/img/workday-scheduler.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Workday Scheduler</p>
-                  <p class="mb-2 color-pink">
+                  <p class="mb-2 color-green">
                     <small>HTML / CSS / JavaScript / jQuery</small>
                   </p>
                   <p class="font-weight-light">
@@ -119,12 +121,12 @@
                   </p>
                   <div class="row">
                     <div class="col-6 pr-1">
-                      <button class="btn bg-pink text-white btn-block">
+                      <button class="btn bg-green text-white btn-block">
                         View App
                       </button>
                     </div>
                     <div class="col-6 pl-1">
-                      <button class="btn bg-pink text-white btn-block">
+                      <button class="btn bg-green text-white btn-block">
                         View GitHub
                       </button>
                     </div>
@@ -135,11 +137,11 @@
 
             <!-- Project #3 -->
             <div class="col-12 col-md-6 col-xl-4 d-md-none d-xl-block project">
-              <div class="card mx-auto" data-aos="fade-left">
+              <div class="card border-0 mx-auto" data-aos="fade-left">
                 <img src="./assets/img/weather-dashboard.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
                 <div class="card-body">
                   <p class="h5 font-weight-bold">Weather Dashboard</p>
-                  <p class="mb-2 color-pink">
+                  <p class="mb-2 color-green">
                     <small>HTML / CSS / Bootstrap / JavaScript / jQuery</small>
                   </p>
                   <p class="font-weight-light">
@@ -147,12 +149,12 @@
                   </p>
                   <div class="row">
                     <div class="col-6 pr-1">
-                      <button class="btn bg-pink text-white btn-block">
+                      <button class="btn bg-green text-white btn-block">
                         View App
                       </button>
                     </div>
                     <div class="col-6 pl-1">
-                      <button class="btn bg-pink text-white btn-block">
+                      <button class="btn bg-green text-white btn-block">
                         View GitHub
                       </button>
                     </div>
@@ -164,8 +166,7 @@
           </div>
         </section>
       </div>
-    </main> 
-
+    </main>
   </div>
   
   

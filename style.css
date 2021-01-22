@@ -7,14 +7,14 @@ body {
 }
 
 #header {
-  height: 80vh;
+  height: 90vh;
 }
 
 #header-text {
   max-width: 90%;
 }
 
-#hello {
+.header-text {
   font-size: 5rem;
   font-family: "Rubik", sans-serif;
 }
@@ -64,10 +64,18 @@ body {
   color: #ffeaa7;
 }
 
+.bg-green {
+  background-color: #00b894;
+}
+
+.color-green {
+  color: #00b894;
+}
+
 /* Media Queries */
 
 @media (max-width: 992px) {
-  #hello {
+  .header-text {
     font-size: 2.75rem;
   }
 
@@ -77,7 +85,11 @@ body {
 }
 
 @media (max-width: 576px) {
-  #hello {
+  #header {
+    height: 80vh;
+  }
+
+  .header-text {
     font-size: 2.75rem;
   }
 
