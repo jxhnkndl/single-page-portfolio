@@ -4,11 +4,16 @@ body {
 }
 
 #header {
-  height: 60vh;
+  height: 90vh;
 }
 
 #header-text {
   max-width: 80%;
+}
+
+#hello {
+  font-size: 5rem;
+  font-family: "Rubik", sans-serif;
 }
 
 .project {
@@ -23,7 +28,22 @@ body {
   font-size: 1.5rem;
 }
 
+.scroll-arrow {
+  top: 90%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 /* Helper Classes */
+
+.bg-gray {
+  background-color: #b2bec3;
+}
+
+.bg-grayer {
+  background-color: #b2bec3d1;
+}
 
 .bg-pink {
   background-color: #ff7675;
@@ -33,10 +53,18 @@ body {
   color: #ff7675;
 }
 
+.bg-yellow {
+  background-color: #ffeaa7;
+}
+
+.color-yellow {
+  color: #ffeaa7;
+}
+
 /* Media Queries */
 
 @media (max-width: 992px) {
-  .h1 {
+  #hello {
     font-size: 2.75rem;
   }
 
@@ -46,8 +74,8 @@ body {
 }
 
 @media (max-width: 576px) {
-  .h1 {
-    font-size: 2rem;
+  #hello {
+    font-size: 2.75rem;
   }
 
   .h5 {
