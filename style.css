@@ -1,9 +1,11 @@
-.overflow-wrapper {
-  overflow-x: hidden;
-}
 
 body {
   font-family: "Bitter", Georgia, 'Times New Roman', Times, serif;
+  background-image: linear-gradient(45deg, #b4b2b2, #ffffff);
+}
+
+.overflow-wrapper {
+  overflow-x: hidden;
 }
 
 #header {
@@ -16,6 +18,7 @@ body {
 
 #img-wrapper {
   border-radius: 50%;
+  border: 4px solid #00b894;
   width: 200px;
   height: 200px;
   overflow: hidden;
@@ -23,12 +26,9 @@ body {
 }
 
 #img-wrapper img {
-  height: 300%;
+  height: 100%;
   width: auto;
   margin: auto;
-  position: absolute;
-  left: -170%;
-  top: -50px;
 }
 
 .btn {
@@ -42,6 +42,11 @@ body {
   right: 0;
   animation: arrowPulse 1s ease-out;
   animation-iteration-count: infinite;
+}
+
+#portfolio {
+  background-image: linear-gradient(45deg, #00b894, #06816988);
+  min-height: 100vh;
 }
 
 .project {
@@ -79,7 +84,6 @@ body {
 /* Arrow Animation */
 
 @keyframes arrowPulse {
-
   0% {
     opacity: 1;
     transform: translateY(0)
