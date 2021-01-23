@@ -47,23 +47,26 @@
 
     <!-- Header -->
     <header class="mb-3 position-relative">
-      <div id="header" class="container d-flex justify-content-center align-items-center">
+      <div id="header" class="container d-flex justify-content-center ">
         <div id="header-text" class="text-center">
-          <i class="heading mb-0 fas fa-code color-green"></i>
+          <div id="img-wrapper" class="mx-auto mt-5 mb-3">
+            <img id="avatar" src="./assets/img/header-bg.jpeg" alt="J.K. Royston">
+          </div>
           <h1 class="heading rubik font-weight-bold">
-            HELLOOO!
+            <i class="heading mb-0 fas fa-code color-green"></i>
+            HELLO!
           </h1>
           <p class="h5 font-weight-light">I'm J.K. Royston and I'm full-stack developer based in Richmond, Virginia. Let's take my love for creativity and technology and make something together!</p>
           <hr>
-          <button href="#" class="btn text-white bg-green m-2 shadow">Download Resume</button>
-        </div>
-      </div>
+          <button href="#" class="btn text-white m-2 shadow">Download Resume</button>
 
-      <!-- Arrow Link -->
-      <div class="scroll-arrow position-absolute text-center">
-        <a id="#header" href="#portfolio">
-          <i class="fas fa-angle-double-down h3 color-green mb-3"></i>
-        </a>
+          <!-- Arrow Link -->
+          <div class="scroll-arrow position-absolute text-center">
+            <a id="#header" href="#portfolio">
+              <i class="fas fa-angle-double-down h2 color-green mb-3"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -71,101 +74,7 @@
     <main class="bg-green">
       <div class="container">
 
-        <!-- Porfotlio -->
-        <section id="portfolio" class="px-2 py-5">
-          <p class="rubik heading text-center text-white mb-4">
-            <i class="fas fa-code"></i>
-            PROJECTS
-          </p>    
-
-          <div class="row">
-
-            <!-- Project #1 -->
-            <div class="col-12 col-md-6 col-xl-4 project">
-              <div class="card border-0 mx-auto p-1 shadow" data-aos="fade-left">
-                <img src="./assets/img/foo-bar-finder.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
-                <div class="card-body">
-                  <p class="h5 font-weight-bold">Foo Bar Finder</p>
-                  <p class="mb-2 color-green rubik">
-                    <small>UI / UX / Bootstrap / JavaScript / jQuery</small>
-                  </p>
-                  <p class="font-weight-light">
-                    The Foo Bar Finder is a double-sided application that allows a user to search for and save new recipes and cocktails by keyword or category. The application uses alternate color schemes for the recipe and drink sides.
-                  </p>
-                  <div class="row">
-                    <div class="col-6 pr-1">
-                      <button class="btn bg-green text-white btn-block">
-                        View App
-                      </button>
-                    </div>
-                    <div class="col-6 pl-1">
-                      <button class="btn bg-green text-white btn-block">
-                        View GitHub
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project #2 -->
-            <div class="col-12 col-md-6 col-xl-4 project">
-              <div class="card border-0 mx-auto p-1 shadow" data-aos="fade-right">
-                <img src="./assets/img/workday-scheduler.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
-                <div class="card-body">
-                  <p class="h5 font-weight-bold">Workday Scheduler</p>
-                  <p class="mb-2 color-green rubik">
-                    <small>JavaScript / jQuery / Moment.js</small>
-                  </p>
-                  <p class="font-weight-light">
-                    The Workday Scheduler is a dynamic planner application allowing users to input and save events spanning from 9 AM to 5 PM. Timeblocks auto-update their background colors in relation to the current time. 
-                  </p>
-                  <div class="row">
-                    <div class="col-6 pr-1">
-                      <button class="btn bg-green text-white btn-block">
-                        View App
-                      </button>
-                    </div>
-                    <div class="col-6 pl-1">
-                      <button class="btn bg-green text-white btn-block">
-                        View GitHub
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project #3 -->
-            <div class="col-12 col-md-6 col-xl-4 d-md-none d-xl-block project">
-              <div class="card border-0 mx-auto p-1 shadow" data-aos="fade-left">
-                <img src="./assets/img/weather-dashboard.png" alt="Foo Bar Finder application screenshot" class="card-img-top">
-                <div class="card-body">
-                  <p class="h5 font-weight-bold">Weather Dashboard</p>
-                  <p class="mb-2 color-green rubik">
-                    <small>UI / UX / Bootstrap / JavaScript / jQuery / Day.js</small>
-                  </p>
-                  <p class="font-weight-light">
-                    The Weather Dashboard allows users to input a city and retrieve both the city's current weather and five-day forecast. The application also saves previously search cities for quick and easy future reference.
-                  </p>
-                  <div class="row">
-                    <div class="col-6 pr-1">
-                      <button class="btn bg-green text-white btn-block">
-                        View App
-                      </button>
-                    </div>
-                    <div class="col-6 pl-1">
-                      <button class="btn bg-green text-white btn-block">
-                        View GitHub
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section>
+        
       </div>
     </main>
   </div>
