@@ -37,12 +37,22 @@ $(document).ready(function() {
     }, 500);
   });
 
+  // Event Listener: Navbar Hover
+  $(".nav-link").on({
+    mouseenter: function() {
+      $(this).addClass("bg-green text-white");
+    },
+    mouseleave: function() {
+      $(this).removeClass("bg-green text-white");
+    }
+  });
+
   // Event Listener: Button behavior
   $(".btn").on({
     mousedown: function() {
       $(this).css({
         transform: "translateY(0)",
-        transform: "rotate(-2deg) translateY(2px)"
+        transform: "translateY(2px)"
       });
     },
     mouseup: function() {
