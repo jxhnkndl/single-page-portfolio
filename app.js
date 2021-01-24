@@ -43,7 +43,7 @@ $(document).ready(function() {
     mousedown: function() {
       $(this).css({
         transform: "translateY(0)",
-        transform: "translateY(2px)"
+        transform: "rotate(-2deg) translateY(2px)"
       });
     },
     mouseup: function() {
