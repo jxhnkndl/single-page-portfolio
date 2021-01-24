@@ -48,7 +48,7 @@ a:hover {
   transform: rotate(2deg) translateY(-1px);
 }
 
-.scroll-arrow {
+.down-scroll-arrow {
   top: 80%;
   bottom: 0;
   left: 0;
@@ -64,6 +64,11 @@ a:hover {
 
 .project {
   margin-bottom: 50px;
+}
+
+#up-scroll-arrow {
+  animation: arrowPulse 3s ease-out;
+  animation-iteration-count: infinite;
 }
 
 /* Helper Classes: Colors */
@@ -101,6 +106,27 @@ a:hover {
 /* Arrow Animation */
 
 @keyframes arrowPulse {
+  0% {
+    opacity: 1;
+    transform: translateY(0)
+  }
+
+  60% {
+    transform: translateY(-7px)
+  }
+
+  75% {
+    opacity: .4;
+  }
+
+  100% {
+    opacity: 1;
+    bottom: 0;
+    transform: translateY(0);
+  }
+}
+
+@keyframes arrowPulseUp {
   0% {
     opacity: 1;
     transform: translateY(0)

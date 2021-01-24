@@ -26,7 +26,6 @@ $(document).ready(function() {
     });
   }
 
-
   // Event Listener: Create smooth scroll 
   $('a[href^="#"').on("click", function(e) {
     e.preventDefault();
