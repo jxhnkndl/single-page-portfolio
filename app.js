@@ -1,37 +1,36 @@
 $(document).ready(function() {
 
+  // Keep header hidden until init() runs
+  $("#header").css({ opacity: 0 });
+
+  // Run init()
   init();
 
   // Initialize animate on scroll library
   function init() {
 
     // Initialize animate on scroll library
-    AOS.init({
-      disable: false,
-      startEvent: 'load',
-      initClassName: 'aos-init',
-      animatedClassName: 'aos-animate',
-      useClassNames: false,
-      disableMutationObserver: false,
-      debounceDelay: 50,
-      throttleDelay: 99,
-  
-      offset: 120,
-      delay: 0,
-      duration: 400,
-      easing: 'ease-in-out-quad',
-      once: true,
-      mirror: false,
-      anchorPlacement: 'top-bottom'
+    AOS.init();
+
+    // Show body element
+    $("body").removeClass("d-none").addClass("d-block");
+
+    // Gradually fade in the header content
+    $("#header").animate({
+      opacity: 1,
+      transition: ".75s"
     });
+
   }
 
   // Event Listener: Create smooth scroll 
   $('a[href^="#"').on("click", function(e) {
     e.preventDefault();
 
+    // Capture the top point of the target section
     let target = $($(this).attr("href")).offset().top;
 
+    // Glide from current position to top edge of target section
     $("body, html").animate({
       scrollTop: target
     }, 500);
