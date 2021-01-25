@@ -26,6 +26,7 @@ a.nav-link {
 .btn,
 .btn:visited {
   background-image: linear-gradient(45deg, #00b894, #06816988);
+  font-family: "Rubik", sans-serif;
   text-decoration: none;
 }
 
