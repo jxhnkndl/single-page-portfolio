@@ -10,6 +10,7 @@
 * [Technologies](#technologies)
 * [Live Demo](#live-demo)
 * [License](#license)
+* [Contact](#contact)
 
 ## Deployed Application
 The deployed portfolio can be viewed at the link below.
@@ -17,7 +18,7 @@ The deployed portfolio can be viewed at the link below.
 [Single Page Portfolio - Live Demo](https://jxhnkndl.github.io/single-page-portfolio)
 
 ## Application Description
-The single page portfolio was designed to be a clean, simple, and responsive way to showcase stand out projects, several methods of communication, and a touch of style and personality. The finished portfolio features three highlighted projects, a prominently positioned resumé button, smooth scrolling, keyframe CSS animations, detailed contact information, and a 100% unique animated avatar.
+A clean, simple, and responsive development portfolio with a touch of unique style and personality. The deployed layout showcases a rotating array of individual and team projects, a more extend about section including tech skills badges, a prominently positioned button linking to an updated resumé, smooth scrolling, keyframe CSS animations, detailed contact information, and a 100% unique animated avatar.
 
 ## Technologies
 * HTML
@@ -33,3 +34,9 @@ The single page portfolio was designed to be a clean, simple, and responsive way
 ## License
 
 MIT @ [J.K. Royston](https://github.com/jxhnkndl)
+
+## Contact
+J.K. Royston  
+<jkroyston@gmail.com>  
+[GitHub](https://www.github.com/jxhnkndl)
+[LinkedIn](https://www.linkedin.com/in/johnkendallroyston/)
